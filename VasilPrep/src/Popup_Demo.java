@@ -23,7 +23,7 @@ robot.mouseMove(400,15); // Navigating through mouse hover. Note that the coordi
 robot.mousePress(InputEvent.BUTTON1_DOWN_MASK);
 Thread.sleep(2000);
 robot.mouseRelease(InputEvent.BUTTON1_DOWN_MASK);
-Thread.sleep(2000);
-//driver.quit();
+Thread.sleep(5000);
+driver.quit();
 }
 }
