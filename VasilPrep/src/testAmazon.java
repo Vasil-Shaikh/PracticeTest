@@ -63,7 +63,7 @@ public class testAmazon {
 		
 		for(WebElement search:search_results) {
 			String s1=search.getText();
-			String s2=search.getAttribute("href");
+			String s2=search.getAttribute("//a[@class='a-link-normal a-text-normal']");
 			System.out.println(s1);
 			System.out.println(s2);
 			System.out.println("===============");
